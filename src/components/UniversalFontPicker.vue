@@ -1,10 +1,11 @@
 <template>
   <div class="universal-font-picker">
     <v-select
-      :options="fontsLoaded"
+      :placeholder="placeholder"
+      :options="fetchedFonts"
       :filterable="false"
       :clearable="false"
-      @search="(query) => (search = query)"
+      @search="onSearch"
     >
       <template #selected-option="font">
         <h3 :style="{ 'font-family': startCase(font.label) }" :key="font.label">
@@ -41,32 +42,58 @@ export default {
     vSelect,
     VueEternalLoading,
   },
+  props: {
+    placeholder: {
+      type: String,
+      default: "Search for a font",
+    },
+  },
   data() {
     return {
       query: "",
       fonts: Object.keys(fonts).map((i) => `${i}`),
-      // fontsLoaded: [],
+      fetched: new Set(),
       showing: 0,
     };
   },
   computed: {
     filteredFonts() {
-      return this.fonts;
+      return this.fonts.filter((f) =>
+        f.toLowerCase().includes(this.query.toLowerCase())
+      );
     },
-    fontsLoaded() {
-      return this.fonts.slice(0, this.showing);
+    fetchedFonts() {
+      return this.filteredFonts.slice(0, this.showing);
     },
   },
   methods: {
     startCase: startCase,
+    onSearch(query) {
+      this.showing = 0;
+      this.query = query;
+    },
     async onLoadMore(state) {
-      const lastLoadedIndex = this.fontsLoaded.length;
+      // console.log(state);
+      if (this.filteredFonts.length === 0) {
+        state.noResults();
+        return;
+      }
+
+      if (this.fetchedFonts.length >= this.filteredFonts.length) {
+        state.noMore();
+      }
+
+      const lastLoadedIndex = this.fetchedFonts.length;
       const nextLoadedIndex = lastLoadedIndex + 5;
 
-      const newFonts = this.filteredFonts.slice(
-        lastLoadedIndex,
-        nextLoadedIndex
-      );
+      const newFonts = this.filteredFonts
+        .slice(lastLoadedIndex, nextLoadedIndex)
+        .filter((f) => !this.fetched.has(f));
+
+      // update the fetched list
+      newFonts.forEach((f) => {
+        this.fetched.add(f);
+      });
 
       try {
         await this.loadFonts(newFonts);
@@ -80,7 +107,7 @@ export default {
         .map((f) => `../../node_modules/@fontsource/${f}/index.css`)
         .map((f) => {
           const url = new URL(f, import.meta.url);
-          import(`${url}`);
+          import(/* @vite-ignore */ `${url}`);
         });
     },
   },
