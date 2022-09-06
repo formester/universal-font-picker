@@ -1,6 +1,9 @@
 {
-  "name": "universal-font-picker",
-  "version": "0.0.0",
+  "name": "@formester/universal-font-picker",
+  "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
