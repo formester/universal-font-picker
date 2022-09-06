@@ -4,6 +4,22 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "main": "./dist/universal-font-picker.umd.js",
+  "module": "./dist/universal-font-picker.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/universal-font-picker.es.js",
+      "require": "./dist/universal-font-picker.umd.js"
+    },
+    "./dist/universal-font-picker.css": {
+      "import": "./dist/universal-font-picker.css",
+      "require": "./dist/universal-font-picker.css"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
