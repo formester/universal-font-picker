@@ -1,29 +1,36 @@
 <template>
-  <div class="universal-font-picker">
-    <v-select
-      :placeholder="placeholder"
-      :options="fetchedFonts"
-      :filterable="false"
-      :clearable="false"
-      @search="onSearch"
-    >
-      <template #selected-option="font">
-        <h3 :style="{ 'font-family': startCase(font.label) }" :key="font.label">
-          {{ font.label }}
-        </h3>
-      </template>
+  <v-select
+    class="universal-font-picker"
+    :placeholder="placeholder"
+    :options="fetchedFonts"
+    :filterable="false"
+    :clearable="false"
+    @search="onSearch"
+  >
+    <template #selected-option="font">
+      <div
+        class="universal-font-picker__selected-option"
+        :style="{ 'font-family': startCase(font.label) }"
+        :key="font.label"
+      >
+        {{ font.label }}
+      </div>
+    </template>
 
-      <template #option="font">
-        <h3 :style="{ 'font-family': startCase(font.label) }" :key="font.label">
-          {{ font.label }}
-        </h3>
-      </template>
+    <template #option="font">
+      <div
+        class="universal-font-picker__option"
+        :style="{ 'font-family': startCase(font.label) }"
+        :key="font.label"
+      >
+        {{ font.label }}
+      </div>
+    </template>
 
-      <template #list-footer>
-        <vue-eternal-loading :load="onLoadMore" />
-      </template>
-    </v-select>
-  </div>
+    <template #list-footer>
+      <vue-eternal-loading :load="onLoadMore" />
+    </template>
+  </v-select>
 </template>
 
 <script>

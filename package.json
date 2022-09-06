@@ -4,6 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
+  "type": "module",
   "files": [
     "dist"
   ],
@@ -32,6 +33,9 @@
     "lodash": "^4.17.21",
     "vue": "^3.2.38",
     "vue-select": "^4.0.0-beta.5"
+  },
+  "peerDependencies": {
+    "vue": "3.x"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.4",
