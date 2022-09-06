@@ -103,12 +103,21 @@ export default {
       }
     },
     async loadFonts(fonts) {
-      return fonts
-        .map((f) => `../../node_modules/@fontsource/${f}/index.css`)
-        .map((f) => {
-          const url = new URL(f, import.meta.url);
-          import(/* @vite-ignore */ `${url}`);
-        });
+      return (
+        fonts
+          // .map((f) => `../assets/fontsource/${f}/index.css`)
+          // .map((f) => `https://cdn.jsdelivr.net/npm/@fontsource/${f}/index.css`)
+          .map((f) => {
+            // const url = new URL(f, import.meta.url).href;
+            // await import(/* @vite-ignore */ `${url}`);
+            const head = document.getElementsByTagName("HEAD")[0];
+            const link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.type = "text/css";
+            link.href = `https://cdn.jsdelivr.net/npm/@fontsource/${f}/index.css`;
+            head.appendChild(link);
+          })
+      );
     },
   },
   mounted() {
