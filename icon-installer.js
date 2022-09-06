@@ -1,8 +1,8 @@
 // eslint: 0
 const child = require("node:child_process");
-const icons = require("./icons.json");
+const fonts = require("./fonts.json");
 
-const packages = Object.keys(icons)
+const packages = Object.keys(fonts)
   .map((i) => `@fontsource/${i}`)
   .join(" ");
 
