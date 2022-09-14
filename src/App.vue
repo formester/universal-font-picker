@@ -10,7 +10,7 @@ import UniversalFontPicker from "@/components/UniversalFontPicker.vue";
 export default {
   data() {
     return {
-      value: '',
+      value: 'Aclonica',
     }
   },
   components: {

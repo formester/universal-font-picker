@@ -6,8 +6,8 @@
     :filterable="false"
     :clearable="false"
     @search="onSearch"
-    :modelValue="modelValue"
-    @update:modelValue="$emit('update:modelValue', $event)"
+    :modelValue="internalModelValue"
+    @update:modelValue="$emit('update:modelValue', startCase($event))"
   >
     <template #selected-option="font">
       <div
@@ -38,6 +38,7 @@
 <script>
 import fonts from "../../fonts.json";
 import startCase from "lodash/startCase";
+import kababCase from "lodash/kebabCase";
 import vSelect from "vue-select";
 import { VueEternalLoading } from "@ts-pro/vue-eternal-loading";
 
@@ -76,9 +77,13 @@ export default {
     fetchedFonts() {
       return this.filteredFonts.slice(0, this.showing);
     },
+    internalModelValue() {
+      return kababCase(this.modelValue);
+    }
   },
   methods: {
-    startCase: startCase,
+    startCase,
+    kababCase,
     onSearch(query) {
       this.showing = 0;
       this.query = query;
@@ -127,9 +132,14 @@ export default {
       );
     }
   },
-  mounted() {
-    if(this.modelValue) {
-      this.loadFonts([this.modelValue])
+  watch: {
+    modelValue: {
+      immediate: true,
+      handler() {
+        if(this.modelValue) {
+          this.loadFonts([this.internalModelValue])
+        }
+      }
     }
   }
 };

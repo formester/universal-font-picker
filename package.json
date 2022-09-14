@@ -1,6 +1,6 @@
 {
   "name": "@formester/universal-font-picker",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "publishConfig": {
     "access": "public"
   },
@@ -20,6 +20,10 @@
       "import": "./dist/universal-font-picker.css",
       "require": "./dist/universal-font-picker.css"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/formester/universal-font-picker.git"
   },
   "scripts": {
     "dev": "vite",
