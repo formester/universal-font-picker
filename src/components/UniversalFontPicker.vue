@@ -6,6 +6,8 @@
     :filterable="false"
     :clearable="false"
     @search="onSearch"
+    :modelValue="modelValue"
+    @update:modelValue="$emit('update:modelValue', $event)"
   >
     <template #selected-option="font">
       <div
@@ -41,8 +43,6 @@ import { VueEternalLoading } from "@ts-pro/vue-eternal-loading";
 
 import "vue-select/dist/vue-select.css";
 
-// import * from "@fontsource";
-
 export default {
   name: "UniversalFontPicker",
   components: {
@@ -54,6 +54,10 @@ export default {
       type: String,
       default: "Search for a font",
     },
+    modelValue: {
+      type: String,
+      required: true,
+    }
   },
   data() {
     return {
@@ -80,7 +84,7 @@ export default {
       this.query = query;
     },
     async onLoadMore(state) {
-      // console.log(state);
+
       if (this.filteredFonts.length === 0) {
         state.noResults();
         return;
@@ -112,11 +116,7 @@ export default {
     async loadFonts(fonts) {
       return (
         fonts
-          // .map((f) => `../assets/fontsource/${f}/index.css`)
-          // .map((f) => `https://cdn.jsdelivr.net/npm/@fontsource/${f}/index.css`)
           .map((f) => {
-            // const url = new URL(f, import.meta.url).href;
-            // await import(/* @vite-ignore */ `${url}`);
             const head = document.getElementsByTagName("HEAD")[0];
             const link = document.createElement("link");
             link.rel = "stylesheet";
@@ -125,11 +125,8 @@ export default {
             head.appendChild(link);
           })
       );
-    },
-  },
-  mounted() {
-    // this.loadFonts();
-  },
+    }
+  }
 };
 </script>
 
