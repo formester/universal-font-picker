@@ -1,13 +1,20 @@
 <template>
   <div style="max-width: 300px">
-    <UniversalFontPicker msg="You did it!" />
+    <UniversalFontPicker v-model="value" />
   </div>
 </template>
 
-<script setup>
+<script>
 import UniversalFontPicker from "@/components/UniversalFontPicker.vue";
-// import UniversalFontPicker from "@formester/universal-font-picker";
-// import "@formester/universal-font-picker/dist/universal-font-picker.css";
-</script>
 
-<style scoped></style>
+export default {
+  data() {
+    return {
+      value: '',
+    }
+  },
+  components: {
+    UniversalFontPicker,
+  },
+}
+</script>
