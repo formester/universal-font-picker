@@ -126,6 +126,11 @@ export default {
           })
       );
     }
+  },
+  mounted() {
+    if(this.modelValue) {
+      this.loadFonts([this.modelValue])
+    }
   }
 };
 </script>
