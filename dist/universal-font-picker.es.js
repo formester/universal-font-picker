@@ -14,8 +14,8 @@ var k = (o, e, g) => new Promise((n, t) => {
   }, l = (r) => r.done ? n(r.value) : Promise.resolve(r.value).then(a, m);
   l((g = g.apply(o, e)).next());
 });
-import { openBlock as s, createElementBlock as i, resolveDirective as So, normalizeClass as q, renderSlot as c, normalizeProps as u, guardReactiveProps as d, createElementVNode as h, Fragment as R, renderList as P, createTextVNode as _, toDisplayString as j, createBlock as w, resolveDynamicComponent as S, createCommentVNode as $, mergeProps as F, toHandlers as $o, withDirectives as x, vShow as C, createVNode as _o, Transition as Co, withCtx as O, withModifiers as D, resolveComponent as zo, normalizeStyle as M } from "vue";
-const Ao = "google", To = "google", Vo = "google", Lo = "google", qo = "google", Ro = "google", Po = "google", Fo = "google", Do = "google", Mo = "google", Eo = "google", Bo = "google", Uo = "google", Io = "google", No = "google", Wo = "google", Ho = "google", Zo = "google", Ko = "google", Go = "google", Jo = "google", Yo = "google", Qo = "google", Xo = "google", oe = "google", ee = "google", ge = "google", ae = "google", ne = "google", te = "google", le = "google", se = "google", re = "google", ie = "google", ce = "google", ue = "google", de = "google", he = "google", pe = "google", me = "google", be = "google", fe = "google", ye = "google", ke = "google", ve = "google", we = "google", xe = "google", Oe = "google", je = "google", Se = "google", $e = "google", _e = "google", Ce = "google", ze = "google", Ae = "google", Te = "google", Ve = "google", Le = "google", qe = "google", Re = "google", Pe = "google", Fe = "google", De = "google", Me = "google", Ee = "google", Be = "google", Ue = "google", Ie = "google", Ne = "google", We = "google", He = "google", Ze = "google", Ke = "google", Ge = "google", Je = "google", Ye = "google", Qe = "google", Xe = "google", og = "google", eg = "google", gg = "google", ag = "google", ng = "google", tg = "google", lg = "google", sg = "google", rg = "google", ig = "google", cg = "google", ug = "google", dg = "google", hg = "google", pg = "google", mg = "google", bg = "google", fg = "google", yg = "google", kg = "google", vg = "google", wg = "google", xg = "google", Og = "google", jg = "google", Sg = "google", $g = "google", _g = "google", Cg = "google", zg = "google", Ag = "google", Tg = "google", Vg = "google", Lg = "google", qg = "google", Rg = "google", Pg = "google", Fg = "google", Dg = "google", Mg = "google", Eg = "google", Bg = "google", Ug = "google", Ig = "google", Ng = "google", Wg = "google", Hg = "google", Zg = "google", Kg = "google", Gg = "google", Jg = "google", Yg = "google", Qg = "google", Xg = "google", oa = "google", ea = "google", ga = "google", aa = "google", na = "google", ta = "google", la = "google", sa = "google", ra = "google", ia = "google", ca = "google", ua = "google", da = "google", ha = "google", pa = "google", ma = "google", ba = "google", fa = "google", ya = "google", ka = "google", va = "google", wa = "google", xa = "google", Oa = "google", ja = "google", Sa = "google", $a = "google", _a = "google", Ca = "google", za = "google", Aa = "google", Ta = "google", Va = "google", La = "google", qa = "google", Ra = "google", Pa = "google", Fa = "google", Da = "google", Ma = "google", Ea = "google", Ba = "google", Ua = "google", Ia = "google", Na = "google", Wa = "google", Ha = "google", Za = "google", Ka = "google", Ga = "google", Ja = "google", Ya = "google", Qa = "google", Xa = "google", on = "google", en = "google", gn = "google", an = "google", nn = "google", tn = "google", ln = "google", sn = "google", rn = "google", cn = "google", un = "google", dn = "google", hn = "google", pn = "google", mn = "google", bn = "google", fn = "google", yn = "google", kn = "google", vn = "google", wn = "google", xn = "google", On = "google", jn = "google", Sn = "google", $n = "google", _n = "google", Cn = "google", zn = "google", An = "google", Tn = "google", Vn = "google", Ln = "google", qn = "google", Rn = "google", Pn = "google", Fn = "google", Dn = "google", Mn = "google", En = "google", Bn = "google", Un = "google", In = "google", Nn = "google", Wn = "google", Hn = "google", Zn = "google", Kn = "google", Gn = "google", Jn = "google", Yn = "google", Qn = "google", Xn = "google", ot = "google", et = "google", gt = "google", at = "google", nt = "google", tt = "google", lt = "google", st = "google", rt = "google", it = "google", ct = "google", ut = "google", dt = "google", ht = "google", pt = "google", mt = "google", bt = "google", ft = "google", yt = "google", kt = "google", vt = "google", wt = "google", xt = "google", Ot = "google", jt = "google", St = "google", $t = "google", _t = "google", Ct = "google", zt = "google", At = "google", Tt = "google", Vt = "google", Lt = "google", qt = "google", Rt = "google", Pt = "google", Ft = "google", Dt = "google", Mt = "google", Et = "google", Bt = "google", Ut = "google", It = "google", Nt = "google", Wt = "google", Ht = "google", Zt = "google", Kt = "google", Gt = "google", Jt = "google", Yt = "google", Qt = "google", Xt = "google", ol = "google", el = "google", gl = "google", al = "google", nl = "google", tl = "google", ll = "google", sl = "google", rl = "google", il = "google", cl = "google", ul = "google", dl = "google", hl = "google", pl = "google", ml = "google", bl = "google", fl = "google", yl = "google", kl = "google", vl = "google", wl = "google", xl = "google", Ol = "google", jl = "google", Sl = "google", $l = "google", _l = "google", Cl = "google", zl = "google", Al = "google", Tl = "google", Vl = "google", Ll = "google", ql = "google", Rl = "google", Pl = "google", Fl = "google", Dl = "google", Ml = "google", El = "google", Bl = "google", Ul = "google", Il = "google", Nl = "google", Wl = "google", Hl = "google", Zl = "google", Kl = "google", Gl = "google", Jl = "google", Yl = "google", Ql = "google", Xl = "google", os = "google", es = "google", gs = "google", as = "google", ns = "google", ts = "google", ls = "google", ss = "google", rs = "google", is = "google", cs = "google", us = "google", ds = "google", hs = "google", ps = "google", ms = "google", bs = "google", fs = "google", ys = "google", ks = "google", vs = "google", ws = "google", xs = "google", Os = "google", js = "google", Ss = "google", $s = "google", _s = "google", Cs = "google", zs = "google", As = "google", Ts = "google", Vs = "google", Ls = "google", qs = "google", Rs = "google", Ps = "google", Fs = "google", Ds = "google", Ms = "google", Es = "google", Bs = "google", Us = "google", Is = "google", Ns = "google", Ws = "google", Hs = "google", Zs = "google", Ks = "google", Gs = "google", Js = "google", Ys = "google", Qs = "google", Xs = "google", or = "google", er = "google", gr = "google", ar = "google", nr = "google", tr = "google", lr = "google", sr = "google", rr = "google", ir = "google", cr = "google", ur = "google", dr = "google", hr = "google", pr = "google", mr = "google", br = "google", fr = "google", yr = "google", kr = "google", vr = "google", wr = "google", xr = "google", Or = "google", jr = "google", Sr = "google", $r = "google", _r = "google", Cr = "google", zr = "google", Ar = "google", Tr = "google", Vr = "google", Lr = "google", qr = "google", Rr = "google", Pr = "google", Fr = "google", Dr = "google", Mr = "google", Er = "google", Br = "google", Ur = "google", Ir = "google", Nr = "google", Wr = "google", Hr = "google", Zr = "google", Kr = "google", Gr = "google", Jr = "google", Yr = "google", Qr = "google", Xr = "google", oi = "google", ei = "google", gi = "google", ai = "google", ni = "google", ti = "google", li = "google", si = "google", ri = "google", ii = "google", ci = "google", ui = "google", di = "google", hi = "google", pi = "google", mi = "google", bi = "google", fi = "google", yi = "google", ki = "google", vi = "google", wi = "google", xi = "google", Oi = "google", ji = "google", Si = "google", $i = "google", _i = "google", Ci = "google", zi = "google", Ai = "google", Ti = "google", Vi = "google", Li = "google", qi = "google", Ri = "google", Pi = "google", Fi = "google", Di = "google", Mi = "google", Ei = "google", Bi = "google", Ui = "google", Ii = "google", Ni = "google", Wi = "google", Hi = "google", Zi = "google", Ki = "google", Gi = "google", Ji = "google", Yi = "google", Qi = "google", Xi = "google", oc = "google", ec = "google", gc = "google", ac = "google", nc = "google", tc = "google", lc = "google", sc = "google", rc = "google", ic = "google", cc = "google", uc = "google", dc = "google", hc = "google", pc = "google", mc = "google", bc = "google", fc = "google", yc = "google", kc = "google", vc = "google", wc = "google", xc = "google", Oc = "google", jc = "google", Sc = "google", $c = "google", _c = "google", Cc = "google", zc = "google", Ac = "google", Tc = "google", Vc = "google", Lc = "google", qc = "google", Rc = "google", Pc = "google", Fc = "google", Dc = "google", Mc = "google", Ec = "google", Bc = "google", Uc = "google", Ic = "google", Nc = "google", Wc = "google", Hc = "google", Zc = "google", Kc = "google", Gc = "google", Jc = "google", Yc = "google", Qc = "google", Xc = "google", ou = "google", eu = "google", gu = "google", au = "google", nu = "google", tu = "google", lu = "google", su = "google", ru = "google", iu = "google", cu = "google", uu = "google", du = "google", hu = "google", pu = "google", mu = "google", bu = "google", fu = "google", yu = "google", ku = "google", vu = "google", wu = "google", xu = "google", Ou = "google", ju = "google", Su = "google", $u = "google", _u = "google", Cu = "league", zu = "other", Au = "other", Tu = "other", Vu = "other", Lu = "other", qu = "other", Ru = "other", Pu = "other", Fu = "other", Du = "other", Mu = "other", Eu = "other", Bu = "other", Uu = "other", Iu = "other", Nu = "other", Wu = "other", Hu = "other", Zu = "other", Ku = "other", Gu = "other", Ju = "other", Yu = {
+import { openBlock as s, createElementBlock as i, resolveDirective as So, normalizeClass as F, renderSlot as c, normalizeProps as u, guardReactiveProps as d, createElementVNode as h, Fragment as R, renderList as P, createTextVNode as C, toDisplayString as j, createBlock as w, resolveDynamicComponent as S, createCommentVNode as $, mergeProps as D, toHandlers as $o, withDirectives as x, vShow as z, createVNode as _o, Transition as Co, withCtx as O, withModifiers as M, resolveComponent as zo, normalizeStyle as E } from "vue";
+const Ao = "google", To = "google", Vo = "google", Lo = "google", qo = "google", Fo = "google", Ro = "google", Po = "google", Do = "google", Mo = "google", Eo = "google", Bo = "google", Uo = "google", Io = "google", No = "google", Wo = "google", Ho = "google", Zo = "google", Ko = "google", Go = "google", Jo = "google", Yo = "google", Qo = "google", Xo = "google", oe = "google", ee = "google", ge = "google", ae = "google", ne = "google", te = "google", le = "google", se = "google", re = "google", ie = "google", ce = "google", ue = "google", de = "google", he = "google", pe = "google", me = "google", be = "google", fe = "google", ye = "google", ke = "google", ve = "google", we = "google", xe = "google", Oe = "google", je = "google", Se = "google", $e = "google", _e = "google", Ce = "google", ze = "google", Ae = "google", Te = "google", Ve = "google", Le = "google", qe = "google", Fe = "google", Re = "google", Pe = "google", De = "google", Me = "google", Ee = "google", Be = "google", Ue = "google", Ie = "google", Ne = "google", We = "google", He = "google", Ze = "google", Ke = "google", Ge = "google", Je = "google", Ye = "google", Qe = "google", Xe = "google", og = "google", eg = "google", gg = "google", ag = "google", ng = "google", tg = "google", lg = "google", sg = "google", rg = "google", ig = "google", cg = "google", ug = "google", dg = "google", hg = "google", pg = "google", mg = "google", bg = "google", fg = "google", yg = "google", kg = "google", vg = "google", wg = "google", xg = "google", Og = "google", jg = "google", Sg = "google", $g = "google", _g = "google", Cg = "google", zg = "google", Ag = "google", Tg = "google", Vg = "google", Lg = "google", qg = "google", Fg = "google", Rg = "google", Pg = "google", Dg = "google", Mg = "google", Eg = "google", Bg = "google", Ug = "google", Ig = "google", Ng = "google", Wg = "google", Hg = "google", Zg = "google", Kg = "google", Gg = "google", Jg = "google", Yg = "google", Qg = "google", Xg = "google", oa = "google", ea = "google", ga = "google", aa = "google", na = "google", ta = "google", la = "google", sa = "google", ra = "google", ia = "google", ca = "google", ua = "google", da = "google", ha = "google", pa = "google", ma = "google", ba = "google", fa = "google", ya = "google", ka = "google", va = "google", wa = "google", xa = "google", Oa = "google", ja = "google", Sa = "google", $a = "google", _a = "google", Ca = "google", za = "google", Aa = "google", Ta = "google", Va = "google", La = "google", qa = "google", Fa = "google", Ra = "google", Pa = "google", Da = "google", Ma = "google", Ea = "google", Ba = "google", Ua = "google", Ia = "google", Na = "google", Wa = "google", Ha = "google", Za = "google", Ka = "google", Ga = "google", Ja = "google", Ya = "google", Qa = "google", Xa = "google", on = "google", en = "google", gn = "google", an = "google", nn = "google", tn = "google", ln = "google", sn = "google", rn = "google", cn = "google", un = "google", dn = "google", hn = "google", pn = "google", mn = "google", bn = "google", fn = "google", yn = "google", kn = "google", vn = "google", wn = "google", xn = "google", On = "google", jn = "google", Sn = "google", $n = "google", _n = "google", Cn = "google", zn = "google", An = "google", Tn = "google", Vn = "google", Ln = "google", qn = "google", Fn = "google", Rn = "google", Pn = "google", Dn = "google", Mn = "google", En = "google", Bn = "google", Un = "google", In = "google", Nn = "google", Wn = "google", Hn = "google", Zn = "google", Kn = "google", Gn = "google", Jn = "google", Yn = "google", Qn = "google", Xn = "google", ot = "google", et = "google", gt = "google", at = "google", nt = "google", tt = "google", lt = "google", st = "google", rt = "google", it = "google", ct = "google", ut = "google", dt = "google", ht = "google", pt = "google", mt = "google", bt = "google", ft = "google", yt = "google", kt = "google", vt = "google", wt = "google", xt = "google", Ot = "google", jt = "google", St = "google", $t = "google", _t = "google", Ct = "google", zt = "google", At = "google", Tt = "google", Vt = "google", Lt = "google", qt = "google", Ft = "google", Rt = "google", Pt = "google", Dt = "google", Mt = "google", Et = "google", Bt = "google", Ut = "google", It = "google", Nt = "google", Wt = "google", Ht = "google", Zt = "google", Kt = "google", Gt = "google", Jt = "google", Yt = "google", Qt = "google", Xt = "google", ol = "google", el = "google", gl = "google", al = "google", nl = "google", tl = "google", ll = "google", sl = "google", rl = "google", il = "google", cl = "google", ul = "google", dl = "google", hl = "google", pl = "google", ml = "google", bl = "google", fl = "google", yl = "google", kl = "google", vl = "google", wl = "google", xl = "google", Ol = "google", jl = "google", Sl = "google", $l = "google", _l = "google", Cl = "google", zl = "google", Al = "google", Tl = "google", Vl = "google", Ll = "google", ql = "google", Fl = "google", Rl = "google", Pl = "google", Dl = "google", Ml = "google", El = "google", Bl = "google", Ul = "google", Il = "google", Nl = "google", Wl = "google", Hl = "google", Zl = "google", Kl = "google", Gl = "google", Jl = "google", Yl = "google", Ql = "google", Xl = "google", os = "google", es = "google", gs = "google", as = "google", ns = "google", ts = "google", ls = "google", ss = "google", rs = "google", is = "google", cs = "google", us = "google", ds = "google", hs = "google", ps = "google", ms = "google", bs = "google", fs = "google", ys = "google", ks = "google", vs = "google", ws = "google", xs = "google", Os = "google", js = "google", Ss = "google", $s = "google", _s = "google", Cs = "google", zs = "google", As = "google", Ts = "google", Vs = "google", Ls = "google", qs = "google", Fs = "google", Rs = "google", Ps = "google", Ds = "google", Ms = "google", Es = "google", Bs = "google", Us = "google", Is = "google", Ns = "google", Ws = "google", Hs = "google", Zs = "google", Ks = "google", Gs = "google", Js = "google", Ys = "google", Qs = "google", Xs = "google", or = "google", er = "google", gr = "google", ar = "google", nr = "google", tr = "google", lr = "google", sr = "google", rr = "google", ir = "google", cr = "google", ur = "google", dr = "google", hr = "google", pr = "google", mr = "google", br = "google", fr = "google", yr = "google", kr = "google", vr = "google", wr = "google", xr = "google", Or = "google", jr = "google", Sr = "google", $r = "google", _r = "google", Cr = "google", zr = "google", Ar = "google", Tr = "google", Vr = "google", Lr = "google", qr = "google", Fr = "google", Rr = "google", Pr = "google", Dr = "google", Mr = "google", Er = "google", Br = "google", Ur = "google", Ir = "google", Nr = "google", Wr = "google", Hr = "google", Zr = "google", Kr = "google", Gr = "google", Jr = "google", Yr = "google", Qr = "google", Xr = "google", oi = "google", ei = "google", gi = "google", ai = "google", ni = "google", ti = "google", li = "google", si = "google", ri = "google", ii = "google", ci = "google", ui = "google", di = "google", hi = "google", pi = "google", mi = "google", bi = "google", fi = "google", yi = "google", ki = "google", vi = "google", wi = "google", xi = "google", Oi = "google", ji = "google", Si = "google", $i = "google", _i = "google", Ci = "google", zi = "google", Ai = "google", Ti = "google", Vi = "google", Li = "google", qi = "google", Fi = "google", Ri = "google", Pi = "google", Di = "google", Mi = "google", Ei = "google", Bi = "google", Ui = "google", Ii = "google", Ni = "google", Wi = "google", Hi = "google", Zi = "google", Ki = "google", Gi = "google", Ji = "google", Yi = "google", Qi = "google", Xi = "google", oc = "google", ec = "google", gc = "google", ac = "google", nc = "google", tc = "google", lc = "google", sc = "google", rc = "google", ic = "google", cc = "google", uc = "google", dc = "google", hc = "google", pc = "google", mc = "google", bc = "google", fc = "google", yc = "google", kc = "google", vc = "google", wc = "google", xc = "google", Oc = "google", jc = "google", Sc = "google", $c = "google", _c = "google", Cc = "google", zc = "google", Ac = "google", Tc = "google", Vc = "google", Lc = "google", qc = "google", Fc = "google", Rc = "google", Pc = "google", Dc = "google", Mc = "google", Ec = "google", Bc = "google", Uc = "google", Ic = "google", Nc = "google", Wc = "google", Hc = "google", Zc = "google", Kc = "google", Gc = "google", Jc = "google", Yc = "google", Qc = "google", Xc = "google", ou = "google", eu = "google", gu = "google", au = "google", nu = "google", tu = "google", lu = "google", su = "google", ru = "google", iu = "google", cu = "google", uu = "google", du = "google", hu = "google", pu = "google", mu = "google", bu = "google", fu = "google", yu = "google", ku = "google", vu = "google", wu = "google", xu = "google", Ou = "google", ju = "google", Su = "google", $u = "google", _u = "google", Cu = "league", zu = "other", Au = "other", Tu = "other", Vu = "other", Lu = "other", qu = "other", Fu = "other", Ru = "other", Pu = "other", Du = "other", Mu = "other", Eu = "other", Bu = "other", Uu = "other", Iu = "other", Nu = "other", Wu = "other", Hu = "other", Zu = "other", Ku = "other", Gu = "other", Ju = "other", Yu = {
   abeezee: Ao,
   abel: To,
   "abhaya-libre": "google",
@@ -23,13 +23,13 @@ const Ao = "google", To = "google", Vo = "google", Lo = "google", qo = "google",
   "abril-fatface": "google",
   aclonica: Lo,
   acme: qo,
-  actor: Ro,
-  adamina: Po,
+  actor: Fo,
+  adamina: Ro,
   "advent-pro": "google",
   "aguafina-script": "google",
   "akaya-kanadaka": "google",
   "akaya-telivigala": "google",
-  akronim: Fo,
+  akronim: Po,
   akshar: Do,
   aladin: Mo,
   alata: Eo,
@@ -123,16 +123,16 @@ const Ao = "google", To = "google", Vo = "google", Lo = "google", qo = "google",
   aubrey: Le,
   audiowide: qe,
   "autour-one": "google",
-  average: Re,
+  average: Fe,
   "average-sans": "google",
   "averia-gruesa-libre": "google",
   "averia-libre": "google",
   "averia-sans-libre": "google",
   "averia-serif-libre": "google",
   "azeret-mono": "google",
-  b612: Pe,
+  b612: Re,
   "b612-mono": "google",
-  babylonica: Fe,
+  babylonica: Pe,
   "bad-script": "google",
   bahiana: De,
   bahianita: Me,
@@ -246,12 +246,12 @@ const Ao = "google", To = "google", Vo = "google", Lo = "google", qo = "google",
   caramel: Vg,
   carattere: Lg,
   cardo: qg,
-  carme: Rg,
+  carme: Fg,
   "carrois-gothic": "google",
   "carrois-gothic-sc": "google",
   "carter-one": "google",
-  castoro: Pg,
-  catamaran: Fg,
+  castoro: Rg,
+  catamaran: Pg,
   caudex: Dg,
   caveat: Mg,
   "caveat-brush": "google",
@@ -357,12 +357,12 @@ const Ao = "google", To = "google", Vo = "google", Lo = "google", qo = "google",
   "dr-sugiyama": "google",
   "duru-sans": "google",
   dynalight: qa,
-  dynapuff: Ra,
+  dynapuff: Fa,
   "eagle-lake": "google",
   "east-sea-dokdo": "google",
-  eater: Pa,
+  eater: Ra,
   "eb-garamond": "google",
-  economica: Fa,
+  economica: Pa,
   eczar: Da,
   "edu-nsw-act-foundation": "google",
   "edu-qld-beginner": "google",
@@ -467,12 +467,12 @@ const Ao = "google", To = "google", Vo = "google", Lo = "google", qo = "google",
   "gfs-didot": "google",
   "gfs-neohellenic": "google",
   "gideon-roman": "google",
-  gidugu: Rn,
+  gidugu: Fn,
   "gilda-display": "google",
-  girassol: Pn,
+  girassol: Rn,
   "give-you-glory": "google",
   "glass-antiqua": "google",
-  glegoo: Fn,
+  glegoo: Pn,
   "gloria-hallelujah": "google",
   glory: Dn,
   gluten: Mn,
@@ -596,13 +596,13 @@ const Ao = "google", To = "google", Vo = "google", Lo = "google", qo = "google",
   "just-another-hand": "google",
   "just-me-again-down-here": "google",
   k2d: qt,
-  kadwa: Rt,
+  kadwa: Ft,
   "kaisei-decol": "google",
   "kaisei-harunoumi": "google",
   "kaisei-opti": "google",
   "kaisei-tokumin": "google",
-  kalam: Pt,
-  kameron: Ft,
+  kalam: Rt,
+  kameron: Pt,
   kanit: Dt,
   kantumruy: Mt,
   "kantumruy-pro": "google",
@@ -726,9 +726,9 @@ const Ao = "google", To = "google", Vo = "google", Lo = "google", qo = "google",
   mako: Vl,
   mali: Ll,
   mallanna: ql,
-  mandali: Rl,
-  manjari: Pl,
-  manrope: Fl,
+  mandali: Fl,
+  manjari: Rl,
+  manrope: Pl,
   mansalva: Dl,
   manuale: Ml,
   marcellus: El,
@@ -830,9 +830,9 @@ const Ao = "google", To = "google", Vo = "google", Lo = "google", qo = "google",
   "nixie-one": "google",
   nobile: Ls,
   nokora: qs,
-  norican: Rs,
-  nosifer: Ps,
-  notable: Fs,
+  norican: Fs,
+  nosifer: Rs,
+  notable: Ps,
   "nothing-you-could-do": "google",
   "noticia-text": "google",
   "noto-emoji": "google",
@@ -1133,10 +1133,10 @@ const Ao = "google", To = "google", Vo = "google", Lo = "google", qo = "google",
   qahiri: Vr,
   quando: Lr,
   quantico: qr,
-  quattrocento: Rr,
+  quattrocento: Fr,
   "quattrocento-sans": "google",
-  questrial: Pr,
-  quicksand: Fr,
+  questrial: Rr,
+  quicksand: Pr,
   quintessential: Dr,
   qwigley: Mr,
   "qwitcher-grypen": "google",
@@ -1250,12 +1250,12 @@ const Ao = "google", To = "google", Vo = "google", Lo = "google", qo = "google",
   "sedgwick-ave-display": "google",
   sen: qi,
   "send-flowers": "google",
-  sevillana: Ri,
+  sevillana: Fi,
   "seymour-one": "google",
   "shadows-into-light": "google",
   "shadows-into-light-two": "google",
-  shalimar: Pi,
-  shanti: Fi,
+  shalimar: Ri,
+  shanti: Pi,
   share: Di,
   "share-tech": "google",
   "share-tech-mono": "google",
@@ -1363,9 +1363,9 @@ const Ao = "google", To = "google", Vo = "google", Lo = "google", qo = "google",
   "the-girl-next-door": "google",
   "the-nautigal": "google",
   tienne: qc,
-  tillana: Rc,
-  timmana: Pc,
-  tinos: Fc,
+  tillana: Fc,
+  timmana: Rc,
+  tinos: Pc,
   "tiro-bangla": "google",
   "tiro-devanagari-hindi": "google",
   "tiro-devanagari-marathi": "google",
@@ -1507,15 +1507,15 @@ const Ao = "google", To = "google", Vo = "google", Lo = "google", qo = "google",
   "dseg-weather": "other",
   dseg14: Lu,
   dseg7: qu,
-  firago: Ru,
+  firago: Fu,
   "golos-ui": "other",
   "hauora-sans": "other",
   "ia-writer-duo": "other",
   "ia-writer-duospace": "other",
   "ia-writer-mono": "other",
   "ia-writer-quattro": "other",
-  iosevka: Pu,
-  karmilla: Fu,
+  iosevka: Ru,
+  karmilla: Pu,
   metropolis: Du,
   mononoki: Mu,
   norwester: Eu,
@@ -1737,13 +1737,13 @@ var ed = od, gd = ed, ad = {
   \u0153: "oe",
   \u0149: "'n",
   \u017F: "s"
-}, nd = gd(ad), td = nd, ld = typeof v == "object" && v && v.Object === Object && v, sd = ld, rd = sd, id = typeof self == "object" && self && self.Object === Object && self, cd = rd || id || Function("return this")(), ud = cd, dd = ud, hd = dd.Symbol, T = hd;
+}, nd = gd(ad), td = nd, ld = typeof v == "object" && v && v.Object === Object && v, sd = ld, rd = sd, id = typeof self == "object" && self && self.Object === Object && self, cd = rd || id || Function("return this")(), ud = cd, dd = ud, hd = dd.Symbol, V = hd;
 function pd(o, e) {
   for (var g = -1, n = o == null ? 0 : o.length, t = Array(n); ++g < n; )
     t[g] = e(o[g], g, o);
   return t;
 }
-var md = pd, bd = Array.isArray, fd = bd, E = T, eo = Object.prototype, yd = eo.hasOwnProperty, kd = eo.toString, y = E ? E.toStringTag : void 0;
+var md = pd, bd = Array.isArray, fd = bd, B = V, eo = Object.prototype, yd = eo.hasOwnProperty, kd = eo.toString, y = B ? B.toStringTag : void 0;
 function vd(o) {
   var e = yd.call(o, y), g = o[y];
   try {
@@ -1758,26 +1758,26 @@ var wd = vd, xd = Object.prototype, Od = xd.toString;
 function jd(o) {
   return Od.call(o);
 }
-var Sd = jd, B = T, $d = wd, _d = Sd, Cd = "[object Null]", zd = "[object Undefined]", U = B ? B.toStringTag : void 0;
+var Sd = jd, U = V, $d = wd, _d = Sd, Cd = "[object Null]", zd = "[object Undefined]", I = U ? U.toStringTag : void 0;
 function Ad(o) {
-  return o == null ? o === void 0 ? zd : Cd : U && U in Object(o) ? $d(o) : _d(o);
+  return o == null ? o === void 0 ? zd : Cd : I && I in Object(o) ? $d(o) : _d(o);
 }
 var Td = Ad;
 function Vd(o) {
   return o != null && typeof o == "object";
 }
-var Ld = Vd, qd = Td, Rd = Ld, Pd = "[object Symbol]";
-function Fd(o) {
-  return typeof o == "symbol" || Rd(o) && qd(o) == Pd;
+var Ld = Vd, qd = Td, Fd = Ld, Rd = "[object Symbol]";
+function Pd(o) {
+  return typeof o == "symbol" || Fd(o) && qd(o) == Rd;
 }
-var Dd = Fd, I = T, Md = md, Ed = fd, Bd = Dd, Ud = 1 / 0, N = I ? I.prototype : void 0, W = N ? N.toString : void 0;
+var Dd = Pd, N = V, Md = md, Ed = fd, Bd = Dd, Ud = 1 / 0, W = N ? N.prototype : void 0, H = W ? W.toString : void 0;
 function go(o) {
   if (typeof o == "string")
     return o;
   if (Ed(o))
     return Md(o, go) + "";
   if (Bd(o))
-    return W ? W.call(o) : "";
+    return H ? H.call(o) : "";
   var e = o + "";
   return e == "0" && 1 / o == -Ud ? "-0" : e;
 }
@@ -1785,7 +1785,7 @@ var Id = go, Nd = Id;
 function Wd(o) {
   return o == null ? "" : Nd(o);
 }
-var V = Wd, Hd = td, Zd = V, Kd = /[\xc0-\xd6\xd8-\xf6\xf8-\xff\u0100-\u017f]/g, Gd = "\\u0300-\\u036f", Jd = "\\ufe20-\\ufe2f", Yd = "\\u20d0-\\u20ff", Qd = Gd + Jd + Yd, Xd = "[" + Qd + "]", oh = RegExp(Xd, "g");
+var L = Wd, Hd = td, Zd = L, Kd = /[\xc0-\xd6\xd8-\xf6\xf8-\xff\u0100-\u017f]/g, Gd = "\\u0300-\\u036f", Jd = "\\ufe20-\\ufe2f", Yd = "\\u20d0-\\u20ff", Qd = Gd + Jd + Yd, Xd = "[" + Qd + "]", oh = RegExp(Xd, "g");
 function eh(o) {
   return o = Zd(o), o && o.replace(Kd, Hd).replace(oh, "");
 }
@@ -1797,11 +1797,11 @@ var th = nh, lh = /[a-z][A-Z]|[A-Z]{2}[a-z]|[0-9][a-zA-Z]|[a-zA-Z][0-9]|[^a-zA-Z
 function sh(o) {
   return lh.test(o);
 }
-var rh = sh, ao = "\\ud800-\\udfff", ih = "\\u0300-\\u036f", ch = "\\ufe20-\\ufe2f", uh = "\\u20d0-\\u20ff", dh = ih + ch + uh, no = "\\u2700-\\u27bf", to = "a-z\\xdf-\\xf6\\xf8-\\xff", hh = "\\xac\\xb1\\xd7\\xf7", ph = "\\x00-\\x2f\\x3a-\\x40\\x5b-\\x60\\x7b-\\xbf", mh = "\\u2000-\\u206f", bh = " \\t\\x0b\\f\\xa0\\ufeff\\n\\r\\u2028\\u2029\\u1680\\u180e\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200a\\u202f\\u205f\\u3000", lo = "A-Z\\xc0-\\xd6\\xd8-\\xde", fh = "\\ufe0e\\ufe0f", so = hh + ph + mh + bh, ro = "['\u2019]", H = "[" + so + "]", yh = "[" + dh + "]", io = "\\d+", kh = "[" + no + "]", co = "[" + to + "]", uo = "[^" + ao + so + io + no + to + lo + "]", vh = "\\ud83c[\\udffb-\\udfff]", wh = "(?:" + yh + "|" + vh + ")", xh = "[^" + ao + "]", ho = "(?:\\ud83c[\\udde6-\\uddff]){2}", po = "[\\ud800-\\udbff][\\udc00-\\udfff]", f = "[" + lo + "]", Oh = "\\u200d", Z = "(?:" + co + "|" + uo + ")", jh = "(?:" + f + "|" + uo + ")", K = "(?:" + ro + "(?:d|ll|m|re|s|t|ve))?", G = "(?:" + ro + "(?:D|LL|M|RE|S|T|VE))?", mo = wh + "?", bo = "[" + fh + "]?", Sh = "(?:" + Oh + "(?:" + [xh, ho, po].join("|") + ")" + bo + mo + ")*", $h = "\\d*(?:1st|2nd|3rd|(?![123])\\dth)(?=\\b|[A-Z_])", _h = "\\d*(?:1ST|2ND|3RD|(?![123])\\dTH)(?=\\b|[a-z_])", Ch = bo + mo + Sh, zh = "(?:" + [kh, ho, po].join("|") + ")" + Ch, Ah = RegExp([
-  f + "?" + co + "+" + K + "(?=" + [H, f, "$"].join("|") + ")",
-  jh + "+" + G + "(?=" + [H, f + Z, "$"].join("|") + ")",
-  f + "?" + Z + "+" + K,
-  f + "+" + G,
+var rh = sh, ao = "\\ud800-\\udfff", ih = "\\u0300-\\u036f", ch = "\\ufe20-\\ufe2f", uh = "\\u20d0-\\u20ff", dh = ih + ch + uh, no = "\\u2700-\\u27bf", to = "a-z\\xdf-\\xf6\\xf8-\\xff", hh = "\\xac\\xb1\\xd7\\xf7", ph = "\\x00-\\x2f\\x3a-\\x40\\x5b-\\x60\\x7b-\\xbf", mh = "\\u2000-\\u206f", bh = " \\t\\x0b\\f\\xa0\\ufeff\\n\\r\\u2028\\u2029\\u1680\\u180e\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200a\\u202f\\u205f\\u3000", lo = "A-Z\\xc0-\\xd6\\xd8-\\xde", fh = "\\ufe0e\\ufe0f", so = hh + ph + mh + bh, ro = "['\u2019]", Z = "[" + so + "]", yh = "[" + dh + "]", io = "\\d+", kh = "[" + no + "]", co = "[" + to + "]", uo = "[^" + ao + so + io + no + to + lo + "]", vh = "\\ud83c[\\udffb-\\udfff]", wh = "(?:" + yh + "|" + vh + ")", xh = "[^" + ao + "]", ho = "(?:\\ud83c[\\udde6-\\uddff]){2}", po = "[\\ud800-\\udbff][\\udc00-\\udfff]", f = "[" + lo + "]", Oh = "\\u200d", K = "(?:" + co + "|" + uo + ")", jh = "(?:" + f + "|" + uo + ")", G = "(?:" + ro + "(?:d|ll|m|re|s|t|ve))?", J = "(?:" + ro + "(?:D|LL|M|RE|S|T|VE))?", mo = wh + "?", bo = "[" + fh + "]?", Sh = "(?:" + Oh + "(?:" + [xh, ho, po].join("|") + ")" + bo + mo + ")*", $h = "\\d*(?:1st|2nd|3rd|(?![123])\\dth)(?=\\b|[A-Z_])", _h = "\\d*(?:1ST|2ND|3RD|(?![123])\\dTH)(?=\\b|[a-z_])", Ch = bo + mo + Sh, zh = "(?:" + [kh, ho, po].join("|") + ")" + Ch, Ah = RegExp([
+  f + "?" + co + "+" + G + "(?=" + [Z, f, "$"].join("|") + ")",
+  jh + "+" + J + "(?=" + [Z, f + K, "$"].join("|") + ")",
+  f + "?" + K + "+" + G,
+  f + "+" + J,
   _h,
   $h,
   io,
@@ -1810,11 +1810,11 @@ var rh = sh, ao = "\\ud800-\\udfff", ih = "\\u0300-\\u036f", ch = "\\ufe20-\\ufe
 function Th(o) {
   return o.match(Ah) || [];
 }
-var Vh = Th, Lh = th, qh = rh, Rh = V, Ph = Vh;
-function Fh(o, e, g) {
-  return o = Rh(o), e = g ? void 0 : e, e === void 0 ? qh(o) ? Ph(o) : Lh(o) : o.match(e) || [];
+var Vh = Th, Lh = th, qh = rh, Fh = L, Rh = Vh;
+function Ph(o, e, g) {
+  return o = Fh(o), e = g ? void 0 : e, e === void 0 ? qh(o) ? Rh(o) : Lh(o) : o.match(e) || [];
 }
-var Dh = Fh, Mh = Xu, Eh = gh, Bh = Dh, Uh = "['\u2019]", Ih = RegExp(Uh, "g");
+var Dh = Ph, Mh = Xu, Eh = gh, Bh = Dh, Uh = "['\u2019]", Ih = RegExp(Uh, "g");
 function Nh(o) {
   return function(e) {
     return Mh(Bh(Eh(e).replace(Ih, "")), o, "");
@@ -1841,7 +1841,7 @@ var yo = np;
 function tp(o) {
   return o.split("");
 }
-var lp = tp, ko = "\\ud800-\\udfff", sp = "\\u0300-\\u036f", rp = "\\ufe20-\\ufe2f", ip = "\\u20d0-\\u20ff", cp = sp + rp + ip, up = "\\ufe0e\\ufe0f", dp = "[" + ko + "]", z = "[" + cp + "]", A = "\\ud83c[\\udffb-\\udfff]", hp = "(?:" + z + "|" + A + ")", vo = "[^" + ko + "]", wo = "(?:\\ud83c[\\udde6-\\uddff]){2}", xo = "[\\ud800-\\udbff][\\udc00-\\udfff]", pp = "\\u200d", Oo = hp + "?", jo = "[" + up + "]?", mp = "(?:" + pp + "(?:" + [vo, wo, xo].join("|") + ")" + jo + Oo + ")*", bp = jo + Oo + mp, fp = "(?:" + [vo + z + "?", z, wo, xo, dp].join("|") + ")", yp = RegExp(A + "(?=" + A + ")|" + fp + bp, "g");
+var lp = tp, ko = "\\ud800-\\udfff", sp = "\\u0300-\\u036f", rp = "\\ufe20-\\ufe2f", ip = "\\u20d0-\\u20ff", cp = sp + rp + ip, up = "\\ufe0e\\ufe0f", dp = "[" + ko + "]", A = "[" + cp + "]", T = "\\ud83c[\\udffb-\\udfff]", hp = "(?:" + A + "|" + T + ")", vo = "[^" + ko + "]", wo = "(?:\\ud83c[\\udde6-\\uddff]){2}", xo = "[\\ud800-\\udbff][\\udc00-\\udfff]", pp = "\\u200d", Oo = hp + "?", jo = "[" + up + "]?", mp = "(?:" + pp + "(?:" + [vo, wo, xo].join("|") + ")" + jo + Oo + ")*", bp = jo + Oo + mp, fp = "(?:" + [vo + A + "?", A, wo, xo, dp].join("|") + ")", yp = RegExp(T + "(?=" + T + ")|" + fp + bp, "g");
 function kp(o) {
   return o.match(yp) || [];
 }
@@ -1849,7 +1849,7 @@ var vp = kp, wp = lp, xp = yo, Op = vp;
 function jp(o) {
   return xp(o) ? Op(o) : wp(o);
 }
-var Sp = jp, $p = Gh, _p = yo, Cp = Sp, zp = V;
+var Sp = jp, $p = Gh, _p = yo, Cp = Sp, zp = L;
 function Ap(o) {
   return function(e) {
     e = zp(e);
@@ -1857,11 +1857,11 @@ function Ap(o) {
     return n[o]() + t;
   };
 }
-var Tp = Ap, Vp = Tp, Lp = Vp("toUpperCase"), qp = Lp, Rp = fo, Pp = qp, Fp = Rp(function(o, e, g) {
-  return o + (g ? " " : "") + Pp(e);
-}), Dp = Fp, Mp = fo, Ep = Mp(function(o, e, g) {
+var Tp = Ap, Vp = Tp, Lp = Vp("toUpperCase"), qp = Lp, Fp = fo, Rp = qp, Pp = Fp(function(o, e, g) {
+  return o + (g ? " " : "") + Rp(e);
+}), Dp = Pp, Mp = fo, Ep = Mp(function(o, e, g) {
   return o + (g ? "-" : "") + e.toLowerCase();
-}), J = Ep, Bp = Object.defineProperty, Up = Object.defineProperties, Ip = Object.getOwnPropertyDescriptors, Y = Object.getOwnPropertySymbols, Np = Object.prototype.hasOwnProperty, Wp = Object.prototype.propertyIsEnumerable, Q = (o, e, g) => e in o ? Bp(o, e, { enumerable: !0, configurable: !0, writable: !0, value: g }) : o[e] = g, b = (o, e) => {
+}), _ = Ep, Bp = Object.defineProperty, Up = Object.defineProperties, Ip = Object.getOwnPropertyDescriptors, Y = Object.getOwnPropertySymbols, Np = Object.prototype.hasOwnProperty, Wp = Object.prototype.propertyIsEnumerable, Q = (o, e, g) => e in o ? Bp(o, e, { enumerable: !0, configurable: !0, writable: !0, value: g }) : o[e] = g, b = (o, e) => {
   for (var g in e || (e = {}))
     Np.call(e, g) && Q(o, g, e[g]);
   if (Y)
@@ -1973,7 +1973,7 @@ const Hp = {
       return o == null ? this.mutableLoading = !this.mutableLoading : this.mutableLoading = o;
     }
   }
-}, L = (o, e) => {
+}, q = (o, e) => {
   const g = o.__vccOpts || o;
   for (const [n, t] of e)
     g[n] = t;
@@ -1988,7 +1988,7 @@ const Hp = {
 function Xp(o, e) {
   return s(), i("svg", Jp, Qp);
 }
-const om = /* @__PURE__ */ L(Gp, [["render", Xp]]), em = {}, gm = {
+const om = /* @__PURE__ */ q(Gp, [["render", Xp]]), em = {}, gm = {
   xmlns: "http://www.w3.org/2000/svg",
   width: "14",
   height: "10"
@@ -1998,7 +1998,7 @@ const om = /* @__PURE__ */ L(Gp, [["render", Xp]]), em = {}, gm = {
 function tm(o, e) {
   return s(), i("svg", gm, nm);
 }
-const lm = /* @__PURE__ */ L(em, [["render", tm]]), oo = {
+const lm = /* @__PURE__ */ q(em, [["render", tm]]), oo = {
   Deselect: om,
   OpenIndicator: lm
 }, sm = {
@@ -2499,12 +2499,12 @@ https://vue-select.org/api/props.html#getoptionkey`, o, e);
 }, fm = ["disabled"], ym = { class: "vs__spinner" }, km = ["id"], vm = ["id", "aria-selected", "onMouseover", "onClick"], wm = {
   key: 0,
   class: "vs__no-options"
-}, xm = /* @__PURE__ */ _(" Sorry, no matching options. "), Om = ["id"];
+}, xm = /* @__PURE__ */ C(" Sorry, no matching options. "), Om = ["id"];
 function jm(o, e, g, n, t, a) {
   const m = So("append-to-body");
   return s(), i("div", {
     dir: g.dir,
-    class: q(["v-select", a.stateClasses])
+    class: F(["v-select", a.stateClasses])
   }, [
     c(o.$slots, "header", u(d(a.scope.header))),
     h("div", {
@@ -2529,7 +2529,7 @@ function jm(o, e, g, n, t, a) {
             class: "vs__selected"
           }, [
             c(o.$slots, "selected-option", u(d(a.normalizeOptionForSlot(l))), () => [
-              _(j(g.getOptionLabel(l)), 1)
+              C(j(g.getOptionLabel(l)), 1)
             ]),
             g.multiple ? (s(), i("button", {
               key: 0,
@@ -2547,7 +2547,7 @@ function jm(o, e, g, n, t, a) {
           ]))
         ])), 256)),
         c(o.$slots, "search", u(d(a.scope.search)), () => [
-          h("input", F({ class: "vs__search" }, a.scope.search.attributes, $o(a.scope.search.events)), null, 16)
+          h("input", D({ class: "vs__search" }, a.scope.search.attributes, $o(a.scope.search.events)), null, 16)
         ])
       ], 512),
       h("div", bm, [
@@ -2562,14 +2562,14 @@ function jm(o, e, g, n, t, a) {
         }, [
           (s(), w(S(a.childComponents.Deselect)))
         ], 8, fm), [
-          [C, a.showClearButton]
+          [z, a.showClearButton]
         ]),
         c(o.$slots, "open-indicator", u(d(a.scope.openIndicator)), () => [
-          g.noDrop ? $("", !0) : (s(), w(S(a.childComponents.OpenIndicator), u(F({ key: 0 }, a.scope.openIndicator.attributes)), null, 16))
+          g.noDrop ? $("", !0) : (s(), w(S(a.childComponents.OpenIndicator), u(D({ key: 0 }, a.scope.openIndicator.attributes)), null, 16))
         ]),
         c(o.$slots, "spinner", u(d(a.scope.spinner)), () => [
           x(h("div", ym, "Loading...", 512), [
-            [C, o.mutableLoading]
+            [z, o.mutableLoading]
           ])
         ])
       ], 512)
@@ -2583,7 +2583,7 @@ function jm(o, e, g, n, t, a) {
           class: "vs__dropdown-menu",
           role: "listbox",
           tabindex: "-1",
-          onMousedown: e[2] || (e[2] = D((...l) => a.onMousedown && a.onMousedown(...l), ["prevent"])),
+          onMousedown: e[2] || (e[2] = M((...l) => a.onMousedown && a.onMousedown(...l), ["prevent"])),
           onMouseup: e[3] || (e[3] = (...l) => a.onMouseUp && a.onMouseUp(...l))
         }, [
           c(o.$slots, "list-header", u(d(a.scope.listHeader))),
@@ -2591,7 +2591,7 @@ function jm(o, e, g, n, t, a) {
             id: `vs${g.uid}__option-${r}`,
             key: g.getOptionKey(l),
             role: "option",
-            class: q(["vs__dropdown-option", {
+            class: F(["vs__dropdown-option", {
               "vs__dropdown-option--deselect": a.isOptionDeselectable(l) && r === o.typeAheadPointer,
               "vs__dropdown-option--selected": a.isOptionSelected(l),
               "vs__dropdown-option--highlight": r === o.typeAheadPointer,
@@ -2599,10 +2599,10 @@ function jm(o, e, g, n, t, a) {
             }]),
             "aria-selected": r === o.typeAheadPointer ? !0 : null,
             onMouseover: (p) => g.selectable(l) ? o.typeAheadPointer = r : null,
-            onClick: D((p) => g.selectable(l) ? a.select(l) : null, ["prevent", "stop"])
+            onClick: M((p) => g.selectable(l) ? a.select(l) : null, ["prevent", "stop"])
           }, [
             c(o.$slots, "option", u(d(a.normalizeOptionForSlot(l))), () => [
-              _(j(g.getOptionLabel(l)), 1)
+              C(j(g.getOptionLabel(l)), 1)
             ])
           ], 42, vm))), 128)),
           a.filteredOptions.length === 0 ? (s(), i("li", wm, [
@@ -2625,7 +2625,7 @@ function jm(o, e, g, n, t, a) {
     c(o.$slots, "footer", u(d(a.scope.footer)))
   ], 10, dm);
 }
-const Sm = /* @__PURE__ */ L(um, [["render", jm]]);
+const Sm = /* @__PURE__ */ q(um, [["render", jm]]);
 const $m = (o, e) => {
   const g = o.__vccOpts || o;
   for (const [n, t] of e)
@@ -2644,6 +2644,10 @@ const $m = (o, e) => {
     modelValue: {
       type: String,
       required: !0
+    },
+    recommendedFonts: {
+      type: Array,
+      default: () => []
     }
   },
   mounted() {
@@ -2651,14 +2655,18 @@ const $m = (o, e) => {
   },
   data() {
     return {
-      fontsLoaded: [],
-      fonts: Object.keys(Yu).map((o) => `${o}`),
+      fontsLoaded: /* @__PURE__ */ new Set(),
+      allFonts: Object.keys(Yu).map((o) => `${o}`),
       observer: null,
       limit: 10,
       search: ""
     };
   },
   computed: {
+    fonts() {
+      const o = this.recommendedFonts.map((e) => _(e));
+      return [.../* @__PURE__ */ new Set([...o, ...this.allFonts])];
+    },
     filteredFonts() {
       return this.fonts.filter(
         (o) => o.toLowerCase().includes(this.search.toLowerCase())
@@ -2668,7 +2676,7 @@ const $m = (o, e) => {
       return this.loadFonts(this.filteredFonts.slice(0, this.limit)), this.filteredFonts.slice(0, this.limit);
     },
     internalModelValue() {
-      return J(this.modelValue);
+      return _(this.modelValue);
     },
     hasNextPage() {
       return this.fetchedFonts.length < this.filteredFonts.length;
@@ -2676,7 +2684,7 @@ const $m = (o, e) => {
   },
   methods: {
     startCase: Dp,
-    kababCase: J,
+    kababCase: _,
     onOpen() {
       return k(this, null, function* () {
         this.hasNextPage && (yield this.$nextTick(), this.observer.observe(this.$refs.load));
@@ -2696,8 +2704,8 @@ const $m = (o, e) => {
     loadFonts(o) {
       return k(this, null, function* () {
         o.forEach((e) => {
-          if (!this.fontsLoaded.includes(e)) {
-            this.fontsLoaded.push(e);
+          if (!this.fontsLoaded.has(e)) {
+            this.fontsLoaded.add(e);
             const g = document.getElementsByTagName("HEAD")[0], n = document.createElement("link");
             n.rel = "stylesheet", n.type = "text/css", n.href = `https://cdn.jsdelivr.net/npm/@fontsource/${e}/index.css`, g.appendChild(n);
           }
@@ -2734,26 +2742,26 @@ function zm(o, e, g, n, t, a) {
     "selected-option": O((l) => [
       (s(), i("div", {
         class: "universal-font-picker__selected-option",
-        style: M({ "font-family": a.startCase(l.label) }),
+        style: E({ "font-family": a.startCase(l.label) }),
         key: l.label
       }, j(l.label), 5))
     ]),
     option: O((l) => [
       (s(), i("div", {
         class: "universal-font-picker__option",
-        style: M({ "font-family": a.startCase(l.label) }),
+        style: E({ "font-family": a.startCase(l.label) }),
         key: l.label
       }, j(l.label), 5))
     ]),
     "list-footer": O(() => [
       x(h("li", Cm, " Loading more options... ", 512), [
-        [C, a.hasNextPage]
+        [z, a.hasNextPage]
       ])
     ]),
     _: 1
   }, 8, ["placeholder", "options", "modelValue", "onOpen", "onClose"]);
 }
-const Vm = /* @__PURE__ */ $m(_m, [["render", zm], ["__scopeId", "data-v-b2824c7c"]]);
+const Vm = /* @__PURE__ */ $m(_m, [["render", zm], ["__scopeId", "data-v-24695718"]]);
 export {
   Vm as default
 };
